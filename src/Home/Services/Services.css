@@ -1,0 +1,228 @@
+
+.services-button a {
+    position: relative;
+    display: inline-block;
+    transition: all ease .3s;
+    padding: 18px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #101010;
+}
+
+.services-button a:after {
+    content: "\f113";
+    font-family: Flaticon;
+    font-size: 10px;
+    position: relative;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    margin-left: 15px;
+    transition: all ease .4s;
+    color: #101010;
+}
+
+
+/*-- Services-btn--*/
+
+.services-btn2 a {
+    position: relative;
+    display: inline-block;
+    transition: all ease .3s;
+    font-weight: 500;
+    color: #032390;
+}
+
+.services-btn2 a:after {
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: #0b70e1;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.services-btn2 a:hover:after {
+    right: -40px;
+    opacity: 1;
+}
+
+
+/*-- Services-btn--*/
+
+.services-btn3 a {
+    position: relative;
+    color: #101010;
+    display: inline-block;
+    transition: all 0.9s ease;
+    text-decoration: underline !important;
+}
+
+.services-btn3 a:after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #f2541b;
+    font-family: "Flaticon";
+    transform: translateY(-50%);
+    transition: all 0.2s ease;
+}
+
+.services-btn3 a:hover {
+    color: #f2541b;
+}
+
+.services-btn3 a:hover:after {
+    right: -28px;
+    content: "\f110";
+    transition: all 0.9s ease;
+}
+
+
+/*-- Blog Button Css --*/
+
+.blog-button a {
+    position: relative;
+    display: inline-block;
+    color: #061340;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all ease .4s;
+}
+
+.blog-button a:after {
+    content: "\f113";
+    font-family: Flaticon;
+    font-size: 8px;
+    position: relative;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    margin-left: 8px;
+    transition: all ease .4s;
+    color: #101010;
+}
+
+.blog-button a:hover {
+    color: #b7d327;
+}
+
+.blog-button a:hover:after {
+    transform: translateX(10px);
+    color: #b7d327;
+}
+
+.blog-button.style2 a:hover {
+    color: #FF5600;
+}
+
+.blog-button.style2 a:hover:after {
+    color: #FF5600;
+}
+
+.blog-button.style3 a {
+    color: #061340;
+}
+
+.blog-button.style3 a:hover {
+    color: #787cf2;
+}
+
+.blog-button.style3 a:hover:after {
+    color: #787cf2;
+}
+
+.blog-button.inner-blog a {
+    text-align: center;
+    display: inline-block;
+    color: #0b70e1;
+    padding-right: 25px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.blog-button.inner-blog a:after {
+    content: "\f114";
+    position: absolute;
+    font-family: flaticon;
+    font-size: 15px;
+    top: 1px;
+    right: 0;
+    opacity: 1;
+    transition: all 0.3s;
+    color: #0b70e1;
+}
+
+.blog-button.inner-blog a:hover {
+    color: #0B70E1;
+}
+
+.blog-button.inner-blog a:hover:after {
+    right: -5px;
+    opacity: 1;
+    transform: unset;
+}
+
+
+/*-- Submit Button Css --*/
+
+.submit-btn {
+    box-shadow: 0 28px 50px 0 rgba(0, 0, 0, 0.05);
+    outline: 0;
+    border: none;
+    padding: 18px 18px 18px 18px;
+    border-radius: 3px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-image: linear-gradient(160deg, #03228f 0%, #0b70e1 77%);
+    transition: all .3s ease;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+}
+
+.submit-btn.orange-btn {
+    background-image: linear-gradient(160deg, #f27c1e 0%, #dd4c23 79%);
+}
+
+.submit {
+    color: #FFFFFF;
+    background-color: transparent;
+    background-image: linear-gradient(95deg, #03228f 0%, #4e95ed 100%);
+    padding: 18px 40px 17px 40px;
+    font-size: 15px;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+}
+
+.submit:hover {
+    opacity: 0.99;
+}
+
+.submit.sub-small {
+    padding: 17px 40px 17px 40px;
+}
+
+.submit.sub-small:hover {
+    color: #ffffff;
+    background-image: linear-gradient(290deg, #03228f 0%, #4e95ed 100%);
+    opacity: unset;
+}
